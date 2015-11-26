@@ -1,4 +1,4 @@
-FROM cuda:7.5-runtime
+FROM injeans/cuda-runtime
 MAINTAINER NVIDIA CORPORATION <digits@nvidia.com>
 
 RUN apt-get update && apt-get install -y --no-install-recommends --force-yes \
